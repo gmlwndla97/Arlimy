@@ -12,7 +12,7 @@ Arlimy
 <br/><br/>
 ## 2. 개발 시스템 개요 
 프로그램 기능의 구조도는 다음과 같다.<br/>
-<img width="400" src="https://user-images.githubusercontent.com/37864097/92405294-3b323a00-f170-11ea-97fc-440e74829612.png">
+<img width="400" src="https://user-images.githubusercontent.com/37864097/92405294-3b323a00-f170-11ea-97fc-440e74829612.png"> <br/>
 <img width="400" src="https://user-images.githubusercontent.com/37864097/92404952-8e57bd00-f16f-11ea-8337-6f5274796cc3.png">
 
 
