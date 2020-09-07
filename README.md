@@ -1,2 +1,1 @@
-![Arlimy 클래스 구조도] (/C:\Users\LG\Desktop\arlimy 구조도.png)
-<img src="/C:\Users\LG\Desktop\arlimy 구조도.png" width="40%" height="30%" title="" alt=""></img>
+<img width="300" src="https://user-images.githubusercontent.com/37864097/92403671-e2ad6d80-f16c-11ea-9405-33cf7be53103.png">
