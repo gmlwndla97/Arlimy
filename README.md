@@ -14,6 +14,14 @@ Arlimy
 프로그램 기능의 구조도는 다음과 같다.<br/>
 <img width="400" src="https://user-images.githubusercontent.com/37864097/92405294-3b323a00-f170-11ea-97fc-440e74829612.png"> <br/>
 <img width="400" src="https://user-images.githubusercontent.com/37864097/92404952-8e57bd00-f16f-11ea-8337-6f5274796cc3.png">
+부대의 특성별로 나누어 기능을 구현했다. 무제한 편지 또는 1일 1편지 라는 큰 틀은 군 부대 자체적으로 결정한 사항이기 때문에 우리 자체적으로 수정할 수 없는 것이라 두가지 틀은 그대로 놔둔 채로 추가 기능을 제공한다.<br/><br/>
+우선 무제한 부대이다. 무제한 부대에는 자동으로 뉴스기사나 대나무숲 글을 보내주는 자동 편지 발송 기능이 추가된다.<br/><br/>
+그래서 무제한 부대의 군인의 경우 자동으로 자동 편지 기능이 제공되므로, 자신이 받아보고 싶은 소식의 카테고리를 고르면 된다.
+무제한 부대의 군인에게 편지를 쓰고 싶은 ‘일반인’의 경우 자동 편지 기능을 직접 사용해 볼 수도 있다. 즉, 뉴스나 대나무숲을 알리미 프로그램이 아닌 발신자가 직접 보내는 것이다. <br/><br/>
+그리고 1일 1편지 부대이다. 이 부대에는 편지 발송자가 날짜를 예약하는 예약제 시스템이 추가되고, 도착한 편지가 없는 날에 한해 자동편지 기능도 추가된다. <br/><br/>
+1일1편지 부대 군인의 경우 자신이 예약제 시스템을 신청할지 말지 선택한다. 예약제를 선택한 군인의 경우 그 군인에게 편지를 쓰려는 일반인은 편지 보내고 싶은 날을 미리 예약을 해야만 편지를 보낼 수 있다. 매주 주말 이틀 동안에만 그 다음주 1주일간의 예약이 열린다. 한 사람당 일주일에 이틀만 예약 가능하다. 즉 군인에게 편지를 보낼 수 있는 사람은 하루에 그 날 예약한 한 명 뿐이다. 예약은 일주일 중에 최대 2일만 가능하다. <br/><br/>
+그리고 1일1편지 부대 군인이 자동편지 발송을 신청하고 입대하면, 편지가 없는 날에만 자동적으로 뉴스 또는 대숲 글을 보내준다. 
+현재 실제 훈련소 인터넷 편지는 일반 편지쓰기 기능만을 제공하고 있는데, 알리미에서는 두 부대 모두 일반 편지 작성 기능은 기본적으로 포함하고 있다. 
 
 
 <br/><br/>
@@ -26,3 +34,36 @@ Arlimy
 - Scheduler 클래스 : 매일 밤 11시 58분에 편지를 일괄적으로 보내기 위해 타이머를 설정하는 클래스 <br/>
 - SendMail 클래스 : 실제 육군훈련소의 개인 인증을 대체하기 위해 네이버 메일을 전송하여 확인하기 위한 클래스<br/>
 - UserGUI 클래스 : 인터페이스를 실행하는 클래스<br/>
+<br/><br/>
+## 4. 실행화면
+<img width="150" src="https://user-images.githubusercontent.com/37864097/92612262-ac9af580-f2f4-11ea-8e46-9cf094215a5a.png">
+
+<img width="150" src="https://user-images.githubusercontent.com/37864097/92612267-adcc2280-f2f4-11ea-9890-f45fe538028f.png">
+<br/>
+무제한 편지 부대 군인의 경우 <br/>
+<img width="150" src="https://user-images.githubusercontent.com/37864097/92612269-adcc2280-f2f4-11ea-8647-e572861bbd1a.png">
+<img width="150" src="https://user-images.githubusercontent.com/37864097/92612272-ae64b900-f2f4-11ea-94a0-630267084bad.png">
+
+<br/>
+무제한 편지 부대 일반인의 경우 <br/>
+<img width="150" src="https://user-images.githubusercontent.com/37864097/92612273-ae64b900-f2f4-11ea-831c-9fec6912b4e8.png">
+<img width="150" src="https://user-images.githubusercontent.com/37864097/92612274-aefd4f80-f2f4-11ea-9a66-e6d9385389ac.png">
+<img width="150" src="https://user-images.githubusercontent.com/37864097/92612276-aefd4f80-f2f4-11ea-8524-a523b9b22bd9.png">
+
+<br/>
+1일 1편지 군인의 경우 <br/>
+<img width="150" src="https://user-images.githubusercontent.com/37864097/92612867-42cf1b80-f2f5-11ea-903c-62e97ac81ac7.png">
+<br/>
+1일 1편지 일반인의 경우 <br/>
+<img width="150" src="https://user-images.githubusercontent.com/37864097/92612869-4367b200-f2f5-11ea-92a5-76ab688dc799.png">
+<img width="150" src="https://user-images.githubusercontent.com/37864097/92612872-44004880-f2f5-11ea-8fa3-708b58419ece.png">
+
+
+<br/><br/>
+## 5. 포함해야할 라이브러리
+- Activation.jar<br/>
+- Javax.mail.jar<br/>
+- Jsoup-1.11.2.jar<br/>
+- Jsoup-1.11.2-javadoc.jar<br/>
+- Mail.jar<br/>
+- Mariadb-java-client-2.2.0.jar<br/>
