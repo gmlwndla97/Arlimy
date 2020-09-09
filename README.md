@@ -36,10 +36,10 @@ Arlimy
 - UserGUI 클래스 : 인터페이스를 실행하는 클래스<br/>
 <br/><br/>
 ## 4. 실행화면
-| |  |
-|:----------|:----------:|
-![](https://user-images.githubusercontent.com/37864097/92612262-ac9af580-f2f4-11ea-8e46-9cf094215a5a.png) | ![](https://user-images.githubusercontent.com/37864097/92612267-adcc2280-f2f4-11ea-9890-f45fe538028f.png)
-<br/>
+<div id="random">
+       <img src="https://user-images.githubusercontent.com/37864097/92612262-ac9af580-f2f4-11ea-8e46-9cf094215a5a.png" />
+       <img src="https://user-images.githubusercontent.com/37864097/92612267-adcc2280-f2f4-11ea-9890-f45fe538028f.png" />
+</div>
 <img width="300" height="300" src="https://user-images.githubusercontent.com/37864097/92612262-ac9af580-f2f4-11ea-8e46-9cf094215a5a.png">
 <img width="300" height="300" src="https://user-images.githubusercontent.com/37864097/92612267-adcc2280-f2f4-11ea-9890-f45fe538028f.png">
 <br/>
