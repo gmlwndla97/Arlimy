@@ -13,7 +13,7 @@ Arlimy
 ## 2. 개발 시스템 개요 
 프로그램 기능의 구조도는 다음과 같다.<br/>
 <img width="400" src="https://user-images.githubusercontent.com/37864097/92405294-3b323a00-f170-11ea-97fc-440e74829612.png"> <br/>
-<img width="400" src="https://user-images.githubusercontent.com/37864097/92404952-8e57bd00-f16f-11ea-8337-6f5274796cc3.png">
+<img width="400" src="https://user-images.githubusercontent.com/37864097/92404952-8e57bd00-f16f-11ea-8337-6f5274796cc3.png"><br/>
 부대의 특성별로 나누어 기능을 구현했다. 무제한 편지 또는 1일 1편지 라는 큰 틀은 군 부대 자체적으로 결정한 사항이기 때문에 우리 자체적으로 수정할 수 없는 것이라 두가지 틀은 그대로 놔둔 채로 추가 기능을 제공한다.<br/><br/>
 우선 무제한 부대이다. 무제한 부대에는 자동으로 뉴스기사나 대나무숲 글을 보내주는 자동 편지 발송 기능이 추가된다.<br/><br/>
 그래서 무제한 부대의 군인의 경우 자동으로 자동 편지 기능이 제공되므로, 자신이 받아보고 싶은 소식의 카테고리를 고르면 된다.
@@ -36,27 +36,24 @@ Arlimy
 - UserGUI 클래스 : 인터페이스를 실행하는 클래스<br/>
 <br/><br/>
 ## 4. 실행화면
-<img width="150" src="https://user-images.githubusercontent.com/37864097/92612262-ac9af580-f2f4-11ea-8e46-9cf094215a5a.png">
-
-<img width="150" src="https://user-images.githubusercontent.com/37864097/92612267-adcc2280-f2f4-11ea-9890-f45fe538028f.png">
+<img width="250" height="400" src="https://user-images.githubusercontent.com/37864097/92612262-ac9af580-f2f4-11ea-8e46-9cf094215a5a.png"><img width="250" height="400" src="https://user-images.githubusercontent.com/37864097/92612267-adcc2280-f2f4-11ea-9890-f45fe538028f.png">
 <br/>
 무제한 편지 부대 군인의 경우 <br/>
-<img width="150" src="https://user-images.githubusercontent.com/37864097/92612269-adcc2280-f2f4-11ea-8647-e572861bbd1a.png">
-<img width="150" src="https://user-images.githubusercontent.com/37864097/92612272-ae64b900-f2f4-11ea-94a0-630267084bad.png">
+<img width="250" height="400"src="https://user-images.githubusercontent.com/37864097/92612269-adcc2280-f2f4-11ea-8647-e572861bbd1a.png"><img width="250" height="400"src="https://user-images.githubusercontent.com/37864097/92612272-ae64b900-f2f4-11ea-94a0-630267084bad.png">
 
 <br/>
 무제한 편지 부대 일반인의 경우 <br/>
-<img width="150" src="https://user-images.githubusercontent.com/37864097/92612273-ae64b900-f2f4-11ea-831c-9fec6912b4e8.png">
-<img width="150" src="https://user-images.githubusercontent.com/37864097/92612274-aefd4f80-f2f4-11ea-9a66-e6d9385389ac.png">
-<img width="150" src="https://user-images.githubusercontent.com/37864097/92612276-aefd4f80-f2f4-11ea-8524-a523b9b22bd9.png">
+<img width="250" height="400" src="https://user-images.githubusercontent.com/37864097/92612273-ae64b900-f2f4-11ea-831c-9fec6912b4e8.png">
+<img width="250" height="400"src="https://user-images.githubusercontent.com/37864097/92612274-aefd4f80-f2f4-11ea-9a66-e6d9385389ac.png">
+<img width="250" height="400" src="https://user-images.githubusercontent.com/37864097/92612276-aefd4f80-f2f4-11ea-8524-a523b9b22bd9.png">
 
 <br/>
 1일 1편지 군인의 경우 <br/>
-<img width="150" src="https://user-images.githubusercontent.com/37864097/92612867-42cf1b80-f2f5-11ea-903c-62e97ac81ac7.png">
+<img width="250" height="400" src="https://user-images.githubusercontent.com/37864097/92612867-42cf1b80-f2f5-11ea-903c-62e97ac81ac7.png">
 <br/>
 1일 1편지 일반인의 경우 <br/>
-<img width="150" src="https://user-images.githubusercontent.com/37864097/92612869-4367b200-f2f5-11ea-92a5-76ab688dc799.png">
-<img width="150" src="https://user-images.githubusercontent.com/37864097/92612872-44004880-f2f5-11ea-8fa3-708b58419ece.png">
+<img width="250" height="400" src="https://user-images.githubusercontent.com/37864097/92612869-4367b200-f2f5-11ea-92a5-76ab688dc799.png">
+<img width="250" height="400" src="https://user-images.githubusercontent.com/37864097/92612872-44004880-f2f5-11ea-8fa3-708b58419ece.png">
 
 
 <br/><br/>
